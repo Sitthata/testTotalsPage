@@ -7,4 +7,5 @@ function totalPages(arrayItems, rowsPerPage) {
   if(rowsPerPage == null || rowsPerPage <= 0) return 1;
   return Math.ceil(arrayItems.length / rowsPerPage);
 }
+console.log("test git flow");
 module.exports = totalPages
